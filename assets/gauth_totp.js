@@ -180,7 +180,7 @@ $(document).ready(function() {
     container.empty();
     
     if (accounts.length === 0) {
-      container.append('<div class="notification is-light has-text-centered">No accounts have been added yet</div>');
+      container.append('<div class="notification is-info is-light has-text-centered">No accounts have been added yet</div>');
       return;
     }
     
