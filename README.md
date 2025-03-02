@@ -2,14 +2,19 @@
 #ReadMe
 
 #### About
-NIK (indonesian identity number) parse . simple in jekyll
+Simple App Gauth TOTP inspiration by [Gbraad](https://github.com/gbraad-apps/gauth) 
 
-Live Demo : https://rokhimin.github.io/jekyll-nik-parse
+#### Library
+- Jekyll
+- CSS (Bulma)
+- Javascript (Jquery, jsSHA)
+
+Live Demo : https://rokhimin.github.io/gauth-totp
 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Rokhimin/jekyll-nik-parse/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rokhimin/gauth-totp/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 
