@@ -9,11 +9,9 @@ Simple App Gauth TOTP (Time-Based One-Time Password) inspiration by [Gbraad](htt
 - CSS (Bulma)
 - Javascript (Jquery, jsSHA)
   
-#### Host
-- Githubpages
-
-Live Demo : https://rokhimin.github.io/gauth-totp
-
+Live Demo : 
+- https://rokhimin.github.io/gauth-totp
+- https://gauth-totp.vercel.app/
 
 ## Contributing
 
