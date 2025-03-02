@@ -192,7 +192,7 @@ $(document).ready(function() {
             <div class="level is-mobile">
               <div class="level-left">
                 <div class="level-item">
-                  <p class="title is-5">${account.name}</p>
+                  <p class="title is-5 has-text-weight-bold" style="max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${account.name}</p>
                 </div>
               </div>
               <div class="level-right">
