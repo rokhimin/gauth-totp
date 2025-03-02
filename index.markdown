@@ -1,0 +1,3 @@
+---
+layout: gauth_totp
+---

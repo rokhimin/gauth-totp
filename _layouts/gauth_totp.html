@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<section class="section">
+    <div class="container">
+      <div class="notification is-info is-light">
+        <button class="delete"></button>
+        This app run on the client side, the website owner cannot see, the data stored in your browser localStorage.
+      </div>
+      
+      <!-- Form to add new account -->
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <div class="field">
+              <label class="label">Account name</label>
+              <div class="control">
+                <input id="account-name" class="input" type="text" placeholder="Account name">
+              </div>
+            </div>
+            
+            <div class="field">
+              <label class="label">Secret key</label>
+              <div class="control">
+                <input id="secret-key" class="input" type="text" placeholder="Input Secret key (Base32)">
+              </div>
+            </div>
+            
+            <div class="field is-grouped">
+              <div class="control">
+                <button id="add-account" class="button is-link">Add</button>
+              </div>
+              <div class="control">
+                <button id="clear-data" class="button is-danger is-light">Remove all</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Container for displaying tokens -->
+      <div id="tokens-container">
+        <!-- Tokens will be dynamically generated here -->
+      </div>
+    </div>
+  </section>
+
+  <script src="{{ site.files }}/assets/gauth_totp.js"></script>

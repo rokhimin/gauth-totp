@@ -1,0 +1,9 @@
+title: Gauth TOTP | whdzera
+email: whdzera@gmail.com
+baseurl: "/jgauth-totp"
+url: "" 
+twitter_username: whdzera
+github_username:  rokhimin/gauth-totp
+
+permalink: /:title.rb
+files: "/gauth-totp"

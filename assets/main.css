@@ -1,0 +1,49 @@
+/* Chrome, Safari */
+        ::-webkit-scrollbar {
+            width: 15px;
+            height: 15px;
+            }
+            ::-webkit-scrollbar-track-piece  {
+            background-color: #222222;
+            }
+            ::-webkit-scrollbar-thumb:vertical {
+            height: 30px;
+            background-color: #535955;
+            }
+            
+            #loading {
+          display: none;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 24px;
+          font-weight: bold;
+        }
+        #card-info {
+          display: none;
+        }
+
+    .token {
+      font-family: monospace;
+      font-size: 24px;
+      letter-spacing: 0.2em;
+    }
+    .progress-container {
+      margin-top: 10px;
+    }
+    .card {
+      margin-bottom: 15px;
+    }
+    .subtitle {
+      margin-bottom: 5px !important;
+    }
+    .delete-button {
+      cursor: pointer;
+    }
+    .token-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+    }
