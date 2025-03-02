@@ -2,12 +2,15 @@
 #ReadMe
 
 #### About
-Simple App Gauth TOTP inspiration by [Gbraad](https://github.com/gbraad-apps/gauth) 
+Simple App Gauth TOTP (Time-Based One-Time Password) inspiration by [Gbraad](https://github.com/gbraad-apps/gauth) 
 
 #### Library
 - Jekyll
 - CSS (Bulma)
 - Javascript (Jquery, jsSHA)
+  
+#### Host
+- Githubpages
 
 Live Demo : https://rokhimin.github.io/gauth-totp
 
